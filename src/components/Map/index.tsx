@@ -1,18 +1,18 @@
-import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 
 export type MapProps = {
-  places?: Place[]
-}
+  places?: Place[];
+};
 
 type Place = {
-  id: string
-  name: string
-  slug: string
+  id: string;
+  name: string;
+  slug: string;
   location: {
-    latitude: number
-    longitude: number
-  }
-}
+    latitude: number;
+    longitude: number;
+  };
+};
 
 const Map = ({ places }: MapProps) => (
   <MapContainer
@@ -26,7 +26,7 @@ const Map = ({ places }: MapProps) => (
     />
 
     {places?.map(({ id, name, location }) => {
-      const { latitude, longitude } = location
+      const { latitude, longitude } = location;
 
       return (
         <Marker
@@ -34,9 +34,9 @@ const Map = ({ places }: MapProps) => (
           position={[latitude, longitude]}
           title={name}
         />
-      )
+      );
     })}
   </MapContainer>
-)
+);
 
-export default Map
+export default Map;

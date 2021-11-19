@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   position: fixed;
@@ -17,4 +17,4 @@ export const Wrapper = styled.div`
       color: var(--highlight);
     }
   }
-`
+`;
