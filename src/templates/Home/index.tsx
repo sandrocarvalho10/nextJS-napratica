@@ -14,9 +14,9 @@ export default function HomeTemplate({ places }: MapProps) {
       <NextSeo
         title="My Trips"
         description="A simple project to show my favorite spots in the world."
-        canonical="https://my-trips.sandro.vercel.app"
+        canonical="https://my-trips-sandro.vercel.app"
         openGraph={{
-          url: 'https://my-trips.sandro.vercel.app',
+          url: 'https://my-trips-sandro.vercel.app',
           title: 'My Trips',
           description:
             'A simple project to show my favorite spots in the world.',
