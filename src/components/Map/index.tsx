@@ -1,5 +1,8 @@
 import { useRouter } from 'next/dist/client/router';
+import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
+import ReactLeafletKml from 'react-leaflet-kml';
+// import kml from './../../../public/assets/localizacao_HVEX.kml';
 
 export type MapProps = {
   places?: Place[];
@@ -35,6 +38,20 @@ const CustomTileLayer = () => {
 
 const Map = ({ places }: MapProps) => {
   const router = useRouter();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [kmlfile, setKmlFile] = useState<any | null>(null);
+
+  useEffect(() => {
+    fetch(
+      'https://raw.githubusercontent.com/aviklai/react-leaflet-kml/master/src/assets/example1.kml'
+    )
+      .then((res) => res.text())
+      .then((kmlText) => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmlText, 'text/xml');
+        setKmlFile(kml);
+      });
+  }, []);
 
   return (
     <MapContainer
@@ -43,6 +60,7 @@ const Map = ({ places }: MapProps) => {
       style={{ height: '100%', width: '100%' }}
     >
       <CustomTileLayer />
+      {kmlfile && <ReactLeafletKml kml={kmlfile} />}
       {places?.map(({ id, slug, name, location }) => {
         const { latitude, longitude } = location;
 
