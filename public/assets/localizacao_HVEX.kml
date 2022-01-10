@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Localização HVEX</name>
+	<gx:CascadingStyle kml:id="__managed_style_0B347109021F7940AEC1">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>402f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_170A45705B1F7940AEC0">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>402f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_01D3CD452A1F7940AEC0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_170A45705B1F7940AEC0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0B347109021F7940AEC1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0DD047653B1F793FF629">
+		<name>HVEX - High Voltage Equipments LTDA</name>
+		<LookAt>
+			<longitude>-45.43742056880428</longitude>
+			<latitude>-22.43853490998889</latitude>
+			<altitude>851.6110759092719</altitude>
+			<heading>-135.7604918515008</heading>
+			<tilt>44.99505263341825</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>189.509659480409</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_01D3CD452A1F7940AEC0</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUlzRy92YmpOTjJjTjJVa2cyZWVHemV1V3RGMkNEaVBhTmk2UkIrS09ueEFDck1EMWVHWXg4RHJQUlZjb2NFL1RTZ0k4aC9vYTI0Zkw4RjFzdGZUb3VrM2pTZmZiWFZWMXhKMDVjWXJUMFdGcThUMkJkSU1KZ1lwUXVPREx0dm4wOS9HS1R6WVBqR0llVzVwRmhjcFpuODJmVS9LaXArM0hTNWtlaTcvdE55V2dsOVNJdnBGaDNnTC9OSjVuMDVXRGxXa2VhMm40emtjMGp2MUp1T0krODdpN21Xb0dVZnNLTDEzYU01ai9USHJPQzMybGRsMllRPT0">
+				<gx:ImageUrl>https://doc-08-6g-mymaps.googleusercontent.com/untrusted/hostedimage/aokgik7hiht2r8ooujkir8jje8/7icf1u0k97gcj3io1jgpd00og0/1641815877000/6SysFSpnixUHfBBWu1u2VCnAIGIK5dRH/04170597571450203571/5AIsG_vYC791eKkL-_EwIW29VIFfcs1jEKr_yWmL711qsccMkOhR3vrfLwdGAe-4SoGAQEWAGKk79eBGtwQ5I_xEfaa_7ajKdtvwypw7GN5EaD8OW4_uTaWc6ZeftWmHjaL2wE_3d_G9OO5c4NQbR64NLmgPJZ8X9JB6iH16QCBZoNK7I3JpCSbQMqytEbjW_cF4nSEw?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-45.43742851677513,-22.43853929517004,851.6507812490453 -45.43761751142529,-22.43827969127958,852.0442843914013 -45.43803398914399,-22.43856715560787,853.8852530617287 -45.43785645965444,-22.43882080469614,853.3985166395925 -45.43742851677513,-22.43853929517004,851.6507812490453 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
