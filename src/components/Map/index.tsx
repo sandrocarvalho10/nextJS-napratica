@@ -40,10 +40,23 @@ const Map = ({ places }: MapProps) => {
   const router = useRouter();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [kmlfile, setKmlFile] = useState<any | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [kmlfile1, setKmlFile1] = useState<any | null>(null);
 
   useEffect(() => {
     fetch(
       'https://raw.githubusercontent.com/aviklai/react-leaflet-kml/master/src/assets/example1.kml'
+    )
+      .then((res) => res.text())
+      .then((kmlText) => {
+        const parser = new DOMParser();
+        const kml = parser.parseFromString(kmlText, 'text/xml');
+        setKmlFile1(kml);
+      });
+  }, []);
+  useEffect(() => {
+    fetch(
+      'https://raw.githubusercontent.com/sandrocarvalho10/nextJS-napratica/main/public/assets/localizacao_HVEX.kml'
     )
       .then((res) => res.text())
       .then((kmlText) => {
@@ -61,6 +74,7 @@ const Map = ({ places }: MapProps) => {
     >
       <CustomTileLayer />
       {kmlfile && <ReactLeafletKml kml={kmlfile} />}
+      {kmlfile1 && <ReactLeafletKml kml={kmlfile1} />}
       {places?.map(({ id, slug, name, location }) => {
         const { latitude, longitude } = location;
 
