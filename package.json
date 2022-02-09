@@ -43,7 +43,7 @@
     "@graphql-codegen/cli": "2.4.0",
     "@graphql-codegen/typescript": "2.4.3",
     "@graphql-codegen/typescript-operations": "2.2.2",
-    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
     "@types/leaflet": "^1.7.6",
