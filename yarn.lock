@@ -1128,18 +1128,18 @@
     "@graphql-tools/utils" "^8.1.1"
     tslib "~2.3.0"
 
-"@graphql-codegen/typescript-operations@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-2.3.0.tgz#4e43785fe12f90d53cfe066e0e8b5b37bd097292"
-  integrity sha512-CIiNSNWKs3PT6UNC8aVvUXXcb6fa5u9NhHW6Qmfx4fXse9JKn6zwNdJio9cU/HfjwnWDCx1yWO+ngMEg3Lec4A==
+"@graphql-codegen/typescript-operations@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-2.3.1.tgz#0017cb4ef038728dc064a60c1b007049fc1869de"
+  integrity sha512-JTmsiBfGTie7iVeWV5JtpT4dlADCdrMaILINPYrTssGx0cOIytWrTE/8RcN+GLtZK1Er5AuhJzEWwfzoJc0Cgg==
   dependencies:
     "@graphql-codegen/plugin-helpers" "^2.4.0"
-    "@graphql-codegen/typescript" "^2.4.3"
-    "@graphql-codegen/visitor-plugin-common" "2.6.0"
+    "@graphql-codegen/typescript" "^2.4.4"
+    "@graphql-codegen/visitor-plugin-common" "2.7.0"
     auto-bind "~4.0.0"
     tslib "~2.3.0"
 
-"@graphql-codegen/typescript@2.4.3", "@graphql-codegen/typescript@^2.4.3":
+"@graphql-codegen/typescript@2.4.3":
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-2.4.3.tgz#8e4e1d12b31e925231e034da9b378045ab206040"
   integrity sha512-5b+4EVA01kiKId6IbBvuvSs0/aGeuSU+Cg2pBbe9VZol49iid982p28k9knEH4Jzgu4tUp4UMQTWNNwkPB4tEQ==
@@ -1150,10 +1150,37 @@
     auto-bind "~4.0.0"
     tslib "~2.3.0"
 
+"@graphql-codegen/typescript@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-2.4.4.tgz#d1c037fd0126205294e2535f4014239f2598dce3"
+  integrity sha512-xL6/WSJZVjDNY9QOkaDHQBKQzCawqU2w8R683uu1HpO4Z+cf5wHSwgHY/HQqurVhMkB0qPKOfSIQheJuWYF4Tw==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "^2.4.0"
+    "@graphql-codegen/schema-ast" "^2.4.1"
+    "@graphql-codegen/visitor-plugin-common" "2.7.0"
+    auto-bind "~4.0.0"
+    tslib "~2.3.0"
+
 "@graphql-codegen/visitor-plugin-common@2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-2.6.0.tgz#564a60399f2db9070a5569ba96ceb0f8c0a6c2a3"
   integrity sha512-MysdJ8L/dIn62D+BFbiu6HSVaZfkAt0EI1g5twkpKzLmG7qDJ8P7KemFVFU/sCW3SVuhs7XabkSjnFK9uBquwg==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "^2.4.0"
+    "@graphql-tools/optimize" "^1.0.1"
+    "@graphql-tools/relay-operation-optimizer" "^6.3.7"
+    "@graphql-tools/utils" "^8.3.0"
+    auto-bind "~4.0.0"
+    change-case-all "1.0.14"
+    dependency-graph "^0.11.0"
+    graphql-tag "^2.11.0"
+    parse-filepath "^1.0.2"
+    tslib "~2.3.0"
+
+"@graphql-codegen/visitor-plugin-common@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-2.7.0.tgz#4c78a84e5d193479309d25c1a3bd139670530aef"
+  integrity sha512-/3TZeM/y9UUy7ziUded+GCCGpRychOIbfNfg7HyHR1SxGpG7PrGunsLvYpv4O+ReUba250le4K4IeziVKl0O5g==
   dependencies:
     "@graphql-codegen/plugin-helpers" "^2.4.0"
     "@graphql-tools/optimize" "^1.0.1"
@@ -2127,7 +2154,17 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@5.12.0", "@typescript-eslint/parser@^5.0.0":
+"@typescript-eslint/parser@5.11.0":
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.11.0.tgz#b4fcaf65513f9b34bdcbffdda055724a5efb7e04"
+  integrity sha512-x0DCjetHZYBRovJdr3U0zG9OOdNXUaFLJ82ehr1AlkArljJuwEsgnud+Q7umlGDFLFrs8tU8ybQDFocp/eX8mQ==
+  dependencies:
+    "@typescript-eslint/scope-manager" "5.11.0"
+    "@typescript-eslint/types" "5.11.0"
+    "@typescript-eslint/typescript-estree" "5.11.0"
+    debug "^4.3.2"
+
+"@typescript-eslint/parser@^5.0.0":
   version "5.12.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.12.0.tgz#0ca669861813df99ce54916f66f524c625ed2434"
   integrity sha512-MfSwg9JMBojMUoGjUmX+D2stoQj1CBYTCP0qnnVtu9A+YQXVKNtLjasYh+jozOcrb/wau8TCfWOkQTiOAruBog==
@@ -2189,7 +2226,6 @@
   version "5.12.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.12.0.tgz#cabf545fd592722f0e2b4104711e63bf89525cd2"
   integrity sha512-Dd9gVeOqt38QHR0BEA8oRaT65WYqPYbIc5tRFQPkfLquVEFPD1HAtbZT98TLBkEcCkvwDYOAvuSvAD9DnQhMfQ==
-
   dependencies:
     "@typescript-eslint/types" "5.12.0"
     "@typescript-eslint/visitor-keys" "5.12.0"
