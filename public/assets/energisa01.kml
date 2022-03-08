@@ -25,7 +25,7 @@
 	<Style id="chaveNA">
 		<IconStyle>
 			<Icon>
-				<href>./files/Chave_A.PNG</href>
+				<href>./maps/files/Chave_A.PNG</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -54,7 +54,7 @@
 	<Style id="trafoParticular">
 		<IconStyle>
 			<Icon>
-				<href>./files/Trafo_P.png</href>
+				<href>./maps/files/Trafo_P.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -64,7 +64,7 @@
 	<Style id="trafoEmpresa">
 		<IconStyle>
 			<Icon>
-				<href>./files/Trafo_E.png</href>
+				<href>./maps/files/Trafo_E.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -83,7 +83,7 @@
 	<Style id="chaveNF">
 		<IconStyle>
 			<Icon>
-				<href>./files/Chave_F.PNG</href>
+				<href>./maps/files/Chave_F.PNG</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
