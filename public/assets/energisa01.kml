@@ -5,7 +5,7 @@
 	<Style id="religador">
 		<IconStyle>
 			<Icon>
-				<href>./files/Religador.png</href>
+				<href>./maps/files/Religador.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
