@@ -5,7 +5,7 @@
 	<Style id="religador">
 		<IconStyle>
 			<Icon>
-				<href>files/Religador.png</href>
+				<href>./files/Religador.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -15,7 +15,7 @@
 	<Style id="poste">
 		<IconStyle>
 			<Icon>
-				<href>files/Poste.png</href>
+				<href>./files/Poste.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -25,7 +25,7 @@
 	<Style id="chaveNA">
 		<IconStyle>
 			<Icon>
-				<href>files/Chave_A.PNG</href>
+				<href>./files/Chave_A.PNG</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -54,7 +54,7 @@
 	<Style id="trafoParticular">
 		<IconStyle>
 			<Icon>
-				<href>files/Trafo_P.png</href>
+				<href>./files/Trafo_P.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -64,7 +64,7 @@
 	<Style id="trafoEmpresa">
 		<IconStyle>
 			<Icon>
-				<href>files/Trafo_E.png</href>
+				<href>./files/Trafo_E.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -83,7 +83,7 @@
 	<Style id="chaveNF">
 		<IconStyle>
 			<Icon>
-				<href>files/Chave_F.PNG</href>
+				<href>./files/Chave_F.PNG</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
