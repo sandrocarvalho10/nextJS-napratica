@@ -15,7 +15,7 @@
 	<Style id="poste">
 		<IconStyle>
 			<Icon>
-				<href>./files/Poste.png</href>
+				<href>./maps/files/Poste.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
