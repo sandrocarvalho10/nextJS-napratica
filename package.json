@@ -24,7 +24,7 @@
   "dependencies": {
     "@styled-icons/evaicons-outline": "^10.34.0",
     "graphql": "^16.0.1",
-    "graphql-request": "^4.0.0",
+    "graphql-request": "^4.2.0",
     "leaflet": "^1.7.1",
     "next": "^12.1.0",
     "next-pwa": "^5.4.5",
