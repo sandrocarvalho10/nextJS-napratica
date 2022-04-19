@@ -74,7 +74,7 @@
 	<Style id="labelElement">
 		<IconStyle>
 			<Icon>
-            <Href>./maps/files/PIN.png</Href>
+            <href>./maps/files/PIN.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
