@@ -72,14 +72,7 @@
 		</LabelStyle>
 	</Style>
 	<Style id="labelElement">
-		<IconStyle>
-			<Icon>
-         <href>./maps/files/PIN.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
+		
 	</Style>
 	<Style id="chaveNF">
 		<IconStyle>
