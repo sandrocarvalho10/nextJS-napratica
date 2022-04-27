@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>Alimentador_es____001004</name>
+</Folder>
+<Folder><name>Transformadores</name>
+</Folder>
+<Folder><name>Label</name>
+  <Placemark>
+	<name>5622127005-75</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0876084744973,-15.5917631703488,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>56166951ME-112.5</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0847761146767,-15.5930008517879,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>5708748005-112.5</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0829099134214,-15.5905751881271,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>5612018005-150</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0849358884616,-15.5914840693113,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>5707768005-300</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0870030363729,-15.5906326628457,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>56219135ME-112.5</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.087690894258,-15.5918316167077,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>56110175ME-262.5</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0855241380548,-15.5900540706756,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>56177029ME-112.5</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0816448734728,-15.5905650399117,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>56213294ME-150</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0869540374446,-15.5905452947249,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>5707771005-225</name>
+	<ExtendedData><SchemaData schemaUrl="#Label">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0887193528973,-15.592432827676,0</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>Simbolo</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0876084744973,-15.5917631703488,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0847761146767,-15.5930008517879,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0829099134214,-15.5905751881271,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0849358884616,-15.5914840693113,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0870030363729,-15.5906326628457,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.087690894258,-15.5918316167077,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0855241380548,-15.5900540706756,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0816448734728,-15.5905650399117,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0869540374446,-15.5905452947249,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0887193528973,-15.592432827676,0</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>Cabos_Primarios</name>
+</Folder>
+<Folder><name>Simbolo___2_</name>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0849912545476,-15.5921984371966,0 -56.0849627926956,-15.5923810441918,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.087643902454,-15.5930173514759,0 -56.0878636105285,-15.5930979472245,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0845908841773,-15.593206610508,0 -56.0843433527494,-15.5931150597789,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0872415369164,-15.5915395324911,0 -56.0873717967374,-15.5915966861974,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0772174346673,-15.5925655568682,0 -56.0773737515728,-15.5922364757545,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0849098459986,-15.5933871017721,0 -56.0851936991172,-15.5935634229645,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0858750799978,-15.590545313845,0 -56.0858987391189,-15.5904635158386,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0829253291812,-15.590562244244,0 -56.083102946971,-15.5903973128528,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0834602417136,-15.5900609893441,0 -56.0835638504309,-15.5899620871423,0</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>7DFF00FF</color><width>6</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-56.0858727254307,-15.5905658748683,0 -56.0855829701017,-15.5903865768632,0</coordinates></LineString>
+  </Placemark>
+</Folder>
+<Folder><name>Chaves</name>
+</Folder>
+<Folder><name>Label___2_</name>
+  <Placemark>
+	<name>0308765005-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0837379375968,-15.5898445628698,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>03166951ME-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0848419885237,-15.5929900459419,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>0209618005-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0873587801023,-15.5916102414991,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>0222279005-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0876131885826,-15.5908518058225,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>X79836942-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0859105804685,-15.5904242720574,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>0317205005-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0817880125595,-15.5909104350949,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>0207767005-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0871897774563,-15.5906982293339,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>0307766005-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0878107467126,-15.5919620491731,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>03159922ME-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0869158007301,-15.5907010279768,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RE212937SA-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___2_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.085526689168,-15.5958487579897,0</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>Simbolo___3_</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0837379375968,-15.5898445628698,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0848419885237,-15.5929900459419,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0873587801023,-15.5916102414991,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0876131885826,-15.5908518058225,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0859105804685,-15.5904242720574,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0817880125595,-15.5909104350949,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0871897774563,-15.5906982293339,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0878107467126,-15.5919620491731,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0869158007301,-15.5907010279768,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___3_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.085526689168,-15.5958487579897,0</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>Capacitores</name>
+</Folder>
+<Folder><name>Label___3_</name>
+</Folder>
+<Folder><name>Simbolo___4_</name>
+</Folder>
+<Folder><name>Reguladores</name>
+</Folder>
+<Folder><name>Label___4_</name>
+</Folder>
+<Folder><name>Simbolo___5_</name>
+</Folder>
+<Folder><name>Religadores</name>
+</Folder>
+<Folder><name>Label___5_</name>
+  <Placemark>
+	<name>79222284ME-NF</name>
+	<ExtendedData><SchemaData schemaUrl="#Label___5_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0821386132716,-15.5911754633741,0</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>Simbolo___6_</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___6_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0821386132716,-15.5911754633741,0</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>Postes</name>
+</Folder>
+<Folder><name>Simbolo___7_</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0768249984834,-15.5933749280365,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0767374710878,-15.5935791662197,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0816814527015,-15.590907940886,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0766750609519,-15.5937316038216,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0767839542155,-15.5934708532436,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0796315292775,-15.5921224582573,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0859278062169,-15.5903824779455,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0769378919234,-15.5931794400511,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0870030363729,-15.5906326628457,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Simbolo___7_">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-56.0769007275488,-15.5932607914831,0</coordinates></Point>
+  </Placemark>
+</Folder>
+<Schema name="Label" id="Label">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Schema name="Simbolo" id="Simbolo">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Schema name="Simbolo___2_" id="Simbolo___2_">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Schema name="Label___2_" id="Label___2_">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Schema name="Simbolo___3_" id="Simbolo___3_">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Schema name="Label___5_" id="Label___5_">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Schema name="Simbolo___6_" id="Simbolo___6_">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Schema name="Simbolo___7_" id="Simbolo___7_">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+</Document></kml>
