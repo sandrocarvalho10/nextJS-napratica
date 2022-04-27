@@ -49,6 +49,7 @@ const Map = ({ places }: MapProps) => {
     )
       .then((res) => res.text())
       .then((kmlText) => {
+        console.log('kml ', kmlText);
         const parser = new DOMParser();
         const kml = parser.parseFromString(kmlText, 'text/xml');
         setKmlFile1(kml);
