@@ -1,41 +1,954 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>BRASIL.shp</name>
-	<gx:CascadingStyle kml:id="__managed_style_23DE3627BD22EB72F150">
+	<name>BRASIL Regioes</name>
+	<gx:CascadingStyle kml:id="__managed_style_2108954AF822F0BADE14">
 		<Style>
 			<IconStyle>
+				<color>ffffca95</color>
 				<scale>1.2</scale>
 				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LabelStyle>
+				<scale>0</scale>
 			</LabelStyle>
 			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>6</width>
+				<color>ffff0000</color>
+				<width>1.5</width>
 			</LineStyle>
 			<PolyStyle>
-				<color>40ffffff</color>
+				<color>ff7299ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06447B5CF922F0BADE14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1510ED289722F0BADE14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2108954AF822F0BADE14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1CDE6E0F3A22F0BA84EA">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff9c3a2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E4464763022F0B9379F">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff43403c</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1510ED289722F0BADE14">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff7299ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2A446DD5E822F0B8A1FE">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff8b8680</color>
 			</PolyStyle>
 			<BalloonStyle>
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0CE482E7A922EB72F150">
+	<StyleMap id="__managed_style_02A12B30AA22F0B8A1FE">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1EE9B6C8EF22EB72F150</styleUrl>
+			<styleUrl>#__managed_style_1DD7D9089222F0B8A1FE</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_23DE3627BD22EB72F150</styleUrl>
+			<styleUrl>#__managed_style_2A446DD5E822F0B8A1FE</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_2305C8CBCB22EB6B3493">
+	<gx:CascadingStyle kml:id="__managed_style_25A6AF2E7222F0B859A7">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffc6c1bd</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A13DA077222F0B859A7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12C5751CE522F0B859A7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_25A6AF2E7222F0B859A7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_260DA5549622F0B7E730">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffedeae8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_14E024F3C022F0B7E730">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffedeae8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00271523C722F0B7E730">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_14E024F3C022F0B7E730</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_260DA5549622F0B7E730</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_288BF786DC22F0B77CD1">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_169665C91A22F0B77CD1">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2B0DEB43C522F0B9AB47">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff636e8d</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09EA93ECE222F0B77CD1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_169665C91A22F0B77CD1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_288BF786DC22F0B77CD1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1DD7D9089222F0B8A1FE">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff8b8680</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_283B39FD3A22F0B737AC">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff26a7ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A4C18A7F222F0B9379F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E4464763022F0B9379F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_03792CA1D622F0B937A0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_003F61FBDE22F0B737AC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_198E0CC67F22F0B737AC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_283B39FD3A22F0B737AC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1173E5339822F0B6F25F">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff58eeff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_152BAD91C922F0B6AEF3">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff6abb66</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06C705E7E722F0B66EA8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E301D8FBA22F0B66EA8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_081F0A3A9822F0B66EA9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0126AF0F2622F0B174D1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1DF0F3E44C22F0B174D1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2242BAF8E322F0B174D1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_08BD0B407822F0B57E38">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffc06b5c</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_26A899953522F0B2027C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff6b7900</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_22EB625CC622F0B61343">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>fff5a542</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_223B045EDF22F0B1D6CF">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffd27619</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_103ABCC47422F0B61343">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>fff5a542</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0F8D17514B22F0B61343">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_103ABCC47422F0B61343</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_22EB625CC622F0B61343</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_27B913CDEA22F0B50768">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffbc47ab</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D8A9CCBA022F0BA84EA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1CDE6E0F3A22F0BA84EA</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2133AF120D22F0BA84EA</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_27954F479C22F0B2BE33">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2dc0fb</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_131079224622F0B50768">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffbc47ab</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E301D8FBA22F0B66EA8">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff9aa626</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1CD71EDD8022F0B57E37">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffc06b5c</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0FADD4953922F0B6F25F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1173E5339822F0B6F25F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2CFF15D8D022F0B6F25F</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2640B6A39422F0B47AF7">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff007cf5</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2242BAF8E322F0B174D1">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_031617E83022F0B57E37">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1CD71EDD8022F0B57E37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_08BD0B407822F0B57E38</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0171E1BF7722F0B47AF7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_104BBF4F6C22F0B47AF7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2640B6A39422F0B47AF7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_03792CA1D622F0B937A0">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff43403c</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_20B0C3A28922F0B4879F">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff5053ef</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_149AD883C922F0B2BE33">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2dc0fb</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_28429F6F1D22F0B14D04">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff3c8e38</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12C5751CE522F0B859A7">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffc6c1bd</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0FA0FE6CD822F0B6AEF3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_152BAD91C922F0B6AEF3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2D2937DA3822F0B6AEF3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1481E7981D22F0B197CB">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffa21f7b</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_081F0A3A9822F0B66EA9">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
 				<color>ffffca95</color>
@@ -55,11 +968,12 @@
 				<color>ff9aa626</color>
 			</PolyStyle>
 			<BalloonStyle>
-				<text>$[description]</text>
+				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1A268841D222EB6B3493">
+	<gx:CascadingStyle kml:id="__managed_style_11280A244922F0B14D04">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
 				<color>ffffca95</color>
@@ -74,24 +988,272 @@
 				<color>ffff0000</color>
 			</LineStyle>
 			<PolyStyle>
-				<color>ff9aa626</color>
+				<color>ff3c8e38</color>
 			</PolyStyle>
 			<BalloonStyle>
-				<text>$[description]</text>
+				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0052AA99B222EB6B3493">
+	<gx:CascadingStyle kml:id="__managed_style_172E236EB422F0B1D6CF">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffd27619</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_15FF3C459A22F0B2027C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff6b7900</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1DF0F3E44C22F0B174D1">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2f2fd3</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_08C7FB490E22F0B4879F">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1A268841D222EB6B3493</styleUrl>
+			<styleUrl>#__managed_style_184EA4CBDE22F0B4879F</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2305C8CBCB22EB6B3493</styleUrl>
+			<styleUrl>#__managed_style_20B0C3A28922F0B4879F</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_2F22C9704122EB742EE9">
+	<StyleMap id="__managed_style_0473683ED422F0B2BE33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_149AD883C922F0B2BE33</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_27954F479C22F0B2BE33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_184EA4CBDE22F0B4879F">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff5053ef</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0528353EE222F0B2027C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_15FF3C459A22F0B2027C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_26A899953522F0B2027C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0D83000F1E22F0B1D6CF">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_172E236EB422F0B1D6CF</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_223B045EDF22F0B1D6CF</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_001F3FB09D22F0B14D04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_11280A244922F0B14D04</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_28429F6F1D22F0B14D04</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2955458AAB22F0B1B845">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff9f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2D2937DA3822F0B6AEF3">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff6abb66</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1065EBDC4A22F0B1B845">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff9f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0240CBA4F522F0B197CA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0F0616161E22F0B197CB</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1481E7981D22F0B197CB</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0F7AE382B322F0B1B845">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1065EBDC4A22F0B1B845</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2955458AAB22F0B1B845</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_198E0CC67F22F0B737AC">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff26a7ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2CFF15D8D022F0B6F25F">
 		<Style>
 			<IconStyle>
 				<color>ffffca95</color>
@@ -111,11 +1273,13 @@
 				<color>ff58eeff</color>
 			</PolyStyle>
 			<BalloonStyle>
-				<text>Teste</text>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1D70B8A0E422EB742EE9">
+	<gx:CascadingStyle kml:id="__managed_style_104BBF4F6C22F0B47AF7">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
 				<color>ffffca95</color>
@@ -130,74 +1294,112 @@
 				<color>ffff0000</color>
 			</LineStyle>
 			<PolyStyle>
-				<color>ff58eeff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text>Teste</text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1EE9B6C8EF22EB72F150">
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>4</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
+				<color>ff007cf5</color>
 			</PolyStyle>
 			<BalloonStyle>
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_03BCF3369022EB742EE9">
+	<gx:CascadingStyle kml:id="__managed_style_1C9736598622F0B9AB47">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff636e8d</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_057787328322F0B9AB47">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1D70B8A0E422EB742EE9</styleUrl>
+			<styleUrl>#__managed_style_1C9736598622F0B9AB47</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2F22C9704122EB742EE9</styleUrl>
+			<styleUrl>#__managed_style_2B0DEB43C522F0B9AB47</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="shp2kml">
-		<IconStyle>
-			<color>ffffca95</color>
-			<Icon>
-				<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffffca95</color>
-		</PolyStyle>
-		<BalloonStyle>
-			<text>$[description]</text>
-		</BalloonStyle>
-	</Style>
-	<Folder id="03F40F6F3D22EB63AC6B">
+	<gx:CascadingStyle kml:id="__managed_style_0F0616161E22F0B197CB">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffa21f7b</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2133AF120D22F0BA84EA">
+		<Style>
+			<IconStyle>
+				<color>ffffca95</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff9c3a2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0E07CFA91822F0B50768">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_131079224622F0B50768</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_27B913CDEA22F0B50768</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="0ABCB6A1DB22F0AE3CF8">
 		<name>Features</name>
 		<open>1</open>
 		<Snippet maxLines="2">Legend: Single Symbol</Snippet>
-		<Placemark id="02EA6FA94022EB63E12E">
+		<Placemark id="0F9536D38E22F0AE77C8">
 			<name>AC</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">AC</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0126AF0F2622F0B174D1</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -208,11 +1410,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="0E43FBFAE922EB63E16D">
+		<Placemark id="0659EDB9B222F0AE7817">
 			<name>AL</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">AL</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0240CBA4F522F0B197CA</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -223,11 +1424,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="1550EA064A22EB63E16D">
+		<Placemark id="009ED5397822F0AE7818">
 			<name>AM</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">AM</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0F7AE382B322F0B1B845</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -238,11 +1438,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="038D20E3B522EB63E16F">
+		<Placemark id="060DC114D122F0AE781A">
 			<name>AP</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">AP</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0D83000F1E22F0B1D6CF</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -282,11 +1481,10 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="072211F11722EB63E170">
+		<Placemark id="03B8A5D39F22F0AE781B">
 			<name>BA</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">BA</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0528353EE222F0B2027C</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -317,11 +1515,10 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="09AE89A1E322EB63E172">
+		<Placemark id="0E4363D68922F0AE781D">
 			<name>CE</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">CE</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_001F3FB09D22F0B14D04</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -332,11 +1529,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="0368023B8E22EB63E173">
+		<Placemark id="08B766C53322F0AE781E">
 			<name>DF</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">DF</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_001F3FB09D22F0B14D04</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -347,11 +1543,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="1AF036C99522EB63E173">
+		<Placemark id="1540FD86D022F0AE781E">
 			<name>ES</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">ES</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_001F3FB09D22F0B14D04</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -362,11 +1557,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="051EEDB58C22EB63E174">
+		<Placemark id="0D17C185AE22F0AE781F">
 			<name>GO</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">GO</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0473683ED422F0B2BE33</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -388,11 +1582,10 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="0ACA6F827122EB63E175">
+		<Placemark id="019364B82D22F0AE7820">
 			<name>MA</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">MA</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_08C7FB490E22F0B4879F</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -459,12 +1652,10 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="01ED374F8F22EB63E177">
+		<Placemark id="052D8BD98622F0AE7822">
 			<name>MG</name>
 			<Snippet maxLines="0"></Snippet>
-			<styleUrl>#__managed_style_03BCF3369022EB742EE9</styleUrl>
-			<gx:Carousel>
-			</gx:Carousel>
+			<styleUrl>#__managed_style_0171E1BF7722F0B47AF7</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -475,11 +1666,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="04D21D998922EB63E179">
+		<Placemark id="0916A2531A22F0AE7824">
 			<name>MS</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">MS</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0E07CFA91822F0B50768</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -490,11 +1680,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="042B1BBA4B22EB63E17A">
+		<Placemark id="02FCDE80CE22F0AE6775">
 			<name>MT</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">MT</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_031617E83022F0B57E37</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -505,11 +1694,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="07F0A89E9022EB63E17B">
+		<Placemark id="08CDED238F22F0AE7826">
 			<name>PA</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">PA</font></td></tr></table>]]></description>
-			<styleUrl>#__managed_style_0052AA99B222EB6B3493</styleUrl>
+			<styleUrl>#__managed_style_0F8D17514B22F0B61343</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -846,11 +2034,10 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="050C0F85A222EB63E180">
+		<Placemark id="0F1A263DB722F0AE782B">
 			<name>PB</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">PB</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_06C705E7E722F0B66EA8</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -861,11 +2048,11 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="186A9BF06F22EB63E180">
+		<Placemark id="0B8A59C93122F0AE782C">
 			<name>PE</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">PE</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0FA0FE6CD822F0B6AEF3</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -876,11 +2063,11 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="09DE32FFED22EB63E181">
+		<Placemark id="0D59E5885F22F0AE782D">
 			<name>PI</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">PI</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0FADD4953922F0B6F25F</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -891,11 +2078,11 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="04AA51D33222EB63E182">
+		<Placemark id="0D8511CF5722F0AE782E">
 			<name>PR</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">PR</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_003F61FBDE22F0B737AC</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -917,11 +2104,10 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="037405989822EB63E184">
+		<Placemark id="0CF9B0ABCA22F0AE782F">
 			<name>RJ</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">RJ</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_09EA93ECE222F0B77CD1</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -952,11 +2138,11 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="0543F7AFF222EB63E185">
+		<Placemark id="085FE1398022F0AE7830">
 			<name>RN</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">RN</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_00271523C722F0B7E730</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -967,11 +2153,11 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="1C4F77FEF422EB63E185">
+		<Placemark id="0CCB7F818522F0AE7831">
 			<name>RO</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">RO</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0A13DA077222F0B859A7</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -982,11 +2168,10 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="02F0B4832122EB63E186">
+		<Placemark id="06D400014422F0AE7832">
 			<name>RR</name>
 			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">RR</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_02A12B30AA22F0B8A1FE</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -997,11 +2182,11 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="03C3802D0422EB63E187">
+		<Placemark id="007E313B4222F0AE7833">
 			<name>RS</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">RS</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0A4C18A7F222F0B9379F</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1012,11 +2197,11 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="08CEE8C80D22EB63E188">
+		<Placemark id="0940ADDA8322F0AE7834">
 			<name>SC</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">SC</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_057787328322F0B9AB47</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -1047,11 +2232,11 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="01604188A322EB63E189">
+		<Placemark id="08CBC5189C22F0AE7835">
 			<name>SE</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">SE</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_057787328322F0B9AB47</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1062,11 +2247,11 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="03248A538E22EB63E18A">
+		<Placemark id="0C6882981C22F0AE7836">
 			<name>SP</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">SP</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_0D8A9CCBA022F0BA84EA</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<outerBoundaryIs>
@@ -1088,11 +2273,11 @@
 				</Polygon>
 			</MultiGeometry>
 		</Placemark>
-		<Placemark id="062496E77922EB63E18B">
+		<Placemark id="0069FE66B822F0AE7837">
 			<name>TO</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>UF</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">TO</font></td></tr></table>]]></description>
-			<styleUrl>#shp2kml</styleUrl>
+			<styleUrl>#__managed_style_06447B5CF922F0BADE14</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1104,32 +2289,5 @@
 			</Polygon>
 		</Placemark>
 	</Folder>
-	<Folder id="1B80A607A422EB63AC6B">
-		<name>Info</name>
-		<Snippet maxLines="0"></Snippet>
-		<description><![CDATA[Source File: BRASIL.shp<br>Legend: Single Symbol<br>Label: UF<br><br><hr>ShapeFile to Google Earth<p><font color="blue"><b>Powered by Zonum Solutions</b><br> <i>www.zonums.com</i></font></p>]]></description>
-		<Style>
-			<BalloonStyle>
-				<text>$[description]</text>
-			</BalloonStyle>
-		</Style>
-	</Folder>
-	<GroundOverlay id="0A10B7EF6822EB72F150">
-		<name>Sobreposição sem título</name>
-		<styleUrl>#__managed_style_0CE482E7A922EB72F150</styleUrl>
-		<Icon>
-			<href>data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==</href>
-		</Icon>
-		<LatLonBox>
-			<north>85</north>
-			<south>-85</south>
-			<east>180</east>
-			<west>-180</west>
-		</LatLonBox>
-		<gx:MapTilePyramid>
-			<gx:minLevel>0</gx:minLevel>
-			<gx:maxLevel>22</gx:maxLevel>
-		</gx:MapTilePyramid>
-	</GroundOverlay>
 </Document>
 </kml>
